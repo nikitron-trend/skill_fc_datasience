@@ -1,6 +1,7 @@
-
+# тут будут изменения в бранче и тд
 import numpy as np
-
+s =12343
+fds = 'asdada'
 def random_predict(number:int=1) -> int:
     """Рандомно угадываем число
 
