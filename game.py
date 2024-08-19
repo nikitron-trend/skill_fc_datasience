@@ -2,6 +2,7 @@
 import numpy as np
 s =12343
 fds = 'asdada'
+branchh = 'master'
 def random_predict(number:int=1) -> int:
     """Рандомно угадываем число
 
