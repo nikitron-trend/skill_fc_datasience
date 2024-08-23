@@ -1,7 +1,7 @@
 """Игра угадай число
 Компьютер сам загадывает и сам угадывает число
 """
-
+# импортируем библиотеку
 import numpy as np
 
 
@@ -21,7 +21,7 @@ def random_predict(number: int = 1) -> int:
     while True:
         count += 1
         predict_number = np.random.randint(s, e)  # предполагаемое число
-        if predict_number > number:
+        if predict_number > number: # если происходит 'перелет' или 'недолет' предсказанного числа то меняем диапазон
             e = predict_number
         elif predict_number < number:
             s = predict_number
